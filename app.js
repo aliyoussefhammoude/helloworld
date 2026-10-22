@@ -53,10 +53,39 @@
 // 	console.log(fruits[i])
 // }
 
-let energi = 3
+// let energi = 3
 
-while (energi > 0) {
-	console.log('Sprang ett varv! Energi kvar: ' + energi)
-	energi-- // Minskar energi med 1 efter varje varv!
+// while (energi > 0) {
+// 	console.log('Sprang ett varv! Energi kvar: ' + energi)
+// 	energi-- // Minskar energi med 1 efter varje varv!
+// }
+
+// console.log('Slut på energi! Måste vila. 😴')
+
+// const fruits = ['Banan', 'Äpple', 'Körsbär']
+
+// fruits[0]
+
+// let produkter = [
+// 	{ name: 'kamera', poang: 85 },
+// 	{ name: 'mobil', poang: 1000 },
+// 	{ name: 'tv', poang: 10 },
+// ]
+
+// for (const produkt of produkter) {
+// 	console.log(produkt.name)
+// }
+
+// for (let i = 0; i < produkter.length; i++) {
+// 	console.log(produkter[i].name + ' - ' + produkter[i].poang)
+// }
+
+for (let i = 5; i >= 1; i--) {
+	if (i === 3) {
+		console.log(i + ' - halvvägs kvar')
+	} else {
+		console.log('Sekunder kvar: ' + i)
+	}
 }
-console.log('Slut på energi! Måste vila. 😴')
+
+console.log('LIFTOFF! 🚀')
